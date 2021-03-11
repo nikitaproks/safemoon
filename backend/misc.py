@@ -13,7 +13,7 @@ WEBHOOK_PATH = '/webhook/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
 WEBAPP_HOST = '0.0.0.0'
-WEBAPP_PORT = '80'
+WEBAPP_PORT = os.environ['PORT']
 
 
 # common
