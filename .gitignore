@@ -2,3 +2,4 @@
 Dockerfile
 .travis.yml
 Dockerrun.aws.json
+docker-compose.yml
