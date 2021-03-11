@@ -1,0 +1,24 @@
+import logging
+import os
+from aiogram import Bot
+from aiogram.dispatcher import Dispatcher
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+
+
+# production
+TOKEN = '1580178550:AAGERMZf0gBcRd1iUZz9UexRFKHUfBiMfIE'
+
+WEBHOOK_HOST = 'https://b148de13e4e8.ngrok.io'
+WEBHOOK_PATH = '/webhook/'
+WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
+
+WEBAPP_HOST = '0.0.0.0'
+WEBAPP_PORT = '80'
+
+
+# common
+logging.basicConfig(level=logging.INFO)
+
+bot = Bot(token=TOKEN)
+memory_storage = MemoryStorage()
+dp = Dispatcher(bot, storage=memory_storage)
