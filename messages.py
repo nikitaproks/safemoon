@@ -1,5 +1,5 @@
 start = "SAFEMOON \
-    \n\n✅CORRECT TOKEN ADDRESS: 0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3\
+    \n\n✅CORRECT TOKEN CONTRACT ADDRESS: 0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3\
     \n\nSimple yet POWERFUL Tokenomics!\
     \n\nRFI + LIQ \
     \n\n♻️5 % of all trades are redistributed to holders \
@@ -25,16 +25,27 @@ start = "SAFEMOON \
     \n🤍 - NFT contest and giveaway\
     \n🤍 - Listing on other Exchanges\
     \n\n_________________________\
-    \n\nBuy $SAFEMOON on <b><a href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>pancakeswap<a></b>\
-    \n\nToken Contract - 0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3\
-    \n\n_________________________\
     \n\nLinks\
-    \n\nTelegram: t.me/safemoonV2\
-    \n\nWebsite: https: // safemoon.xyz\
-    \n\nTwitter: https: // twitter.com/safemoon\
-    \n\nMedium: https: // safemoon.medium.com/\
-    \n\n📶Charts: https: // goswappcharts.web.app /?isbsc = true & tokenId = 0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3\
-    \n\n✅Verified Contract on BSC: https: // bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3  # code\
-    \n\n🔥Burned Dev Tokens: https: // bscscan.com/tx/0xc44aa170d66ed1a2ffc06b63f5ce1aabf1fd2ced669a47cfe88cf6b6c063d774\
-    \n\n🔓Liquidity locked for 4 years: https: // dxsale.app/app/pages/dxlockview?id = 8 & add = 0 & type = lpdefi & chain = BSC\
+    \n\n🌖Buy $SAFEMOON on <b><a href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>pancakeswap</a></b>\
+    \n\n<b><a href='https://t.me/safemoonV2'>Telegram Channel</a></b>\
+    \n\n<b><a href='https://safemoon.xyz'>Website</a></b>\
+    \n\n<b><a href='https://twitter.com/safemoon'>Twitter</a></b>\
+    \n\n<b><a href='https://safemoon.medium.com/'>Medium</a></b>\
+    \n\n<b><a href='https://goswappcharts.web.app/?isbsc=true&tokenId=0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>📶Charts</a></b>\
+    \n\n<b><a href='https://bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3#code'>✅Verified Contract on BSC</a></b>\
+    \n\n<b><a href='https://bscscan.com/tx/0xc44aa170d66ed1a2ffc06b63f5ce1aabf1fd2ced669a47cfe88cf6b6c063d774'>🔥Burned Dev Tokens</a></b>\
+    \n\n<b><a href='https://dxsale.app/app/pages/dxlockview?id=8&add=0&type=lpdefi&chain=BSC'>🔓Liquidity locked for 4 years</a></b>\
 "
+
+linksSF = "\n\n<b><a href='https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>🥞pancakeswap</a></b>\
+    \n\n<b><a href='https://t.me/safemoonV2'>Telegram Channel</a></b>\
+    \n\n<b><a href='https://safemoon.xyz'>Website</a></b>\
+    \n\n<b><a href='https://twitter.com/safemoon'>Twitter</a></b>\
+    \n\n<b><a href='https://safemoon.medium.com/'>Medium</a></b>\
+    \n\n<b><a href='https://goswappcharts.web.app/?isbsc=true&tokenId=0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3'>📶Charts</a></b>\
+    \n\n<b><a href='https://bscscan.com/address/0x8076c74c5e3f5852037f31ff0093eeb8c8add8d3#code'>✅Verified Contract on BSC</a></b>\
+    \n\n<b><a href='https://bscscan.com/tx/0xc44aa170d66ed1a2ffc06b63f5ce1aabf1fd2ced669a47cfe88cf6b6c063d774'>🔥Burned Dev Tokens</a></b>\
+    \n\n<b><a href='https://dxsale.app/app/pages/dxlockview?id=8&add=0&type=lpdefi&chain=BSC'>🔓Liquidity locked for 4 years</a></b>\
+"
+
+contract = "✅CORRECT TOKEN CONTRACT ADDRESS: 0x8076C74C5e3F5852037F31Ff0093Eeb8c8ADd8D3"
