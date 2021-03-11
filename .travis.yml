@@ -13,10 +13,10 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: "us-east-1"
+  region: "eu-central-1"
   app: "safemoon"
-  env: "SafeMoon-env"
-  bucket_name: "elasticbeanstalk-us-east-1-923445559289"
+  env: "safemoon-env"
+  bucket_name: "elasticbeanstalk-eu-central-1-195149449576"
   bucket_path: "safemoon"
   on:
     branch: master

@@ -6,7 +6,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 
 
 # production
-TOKEN = '1580178550:AAGERMZf0gBcRd1iUZz9UexRFKHUfBiMfIE'
+TOKEN = os.environ['TOKEN']
 
 WEBHOOK_HOST = 'https://b148de13e4e8.ngrok.io'
 WEBHOOK_PATH = '/webhook/'
