@@ -1,0 +1,24 @@
+sudo: required
+language: generic
+
+services:
+  - docker
+
+script:
+  - docker build -t nikitaproks/safemoon -f ./backend/Dockerfile ./backend
+  # Log in to the docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Take those images and push them to docker hub
+  - docker push build -t nikitaproks/safemoon
+
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-1"
+  app: "safemoon"
+  env: "SafeMoon-env"
+  bucket_name: "elasticbeanstalk-us-east-1-923445559289"
+  bucket_path: "safemoon"
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
