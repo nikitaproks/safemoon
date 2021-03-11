@@ -8,7 +8,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 # production
 TOKEN = os.environ['TOKEN']
 
-WEBHOOK_HOST = 'https://b148de13e4e8.ngrok.io'
+WEBHOOK_HOST = 'https://safemoonbot.herokuapp.com'
 WEBHOOK_PATH = '/webhook/'
 WEBHOOK_URL = f"{WEBHOOK_HOST}{WEBHOOK_PATH}"
 
