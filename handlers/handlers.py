@@ -6,7 +6,7 @@ from aiogram.dispatcher import DEFAULT_RATE_LIMIT
 from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.dispatcher.filters import Text
 
-from messages import .
+from messages import *
 
 
 @dp.message_handler(commands=['start'], state="*")
