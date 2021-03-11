@@ -1,6 +1,6 @@
 from aiogram.utils.executor import start_webhook
 from misc import dp, bot, WEBHOOK_PATH, WEBHOOK_URL, WEBAPP_HOST, WEBAPP_PORT
-import echo
+import handlers
 
 
 async def on_startup(dp):
